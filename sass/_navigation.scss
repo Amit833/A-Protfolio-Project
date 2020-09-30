@@ -1,0 +1,70 @@
+.navsection {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(
+    to top,
+    rgb(177, 177, 177) 82.5%,
+    rgb(221, 140, 110) 20%
+  );
+}
+
+.animation {
+  background-color: rgb(116, 116, 214);
+  color: white;
+  padding: 10px;
+  width: 40%;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.animation h2 {
+  animation: moveing 30s linear infinite;
+  position: relative;
+  width: 600px;
+}
+
+@keyframes moveing {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  color: black;
+  // text-shadow: -1px 1px 3px blueviolet;
+  font-weight: 900;
+  position: relative;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid blue;
+  transition: all 0.4s linear;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: rgb(12, 12, 85);
+}
+
+nav a:hover::before {
+  width: 100%;
+}

@@ -1,0 +1,57 @@
+/* ----------contact-section----------- */
+.contact-section {
+  background-color: black;
+  margin-top: -10px;
+  padding-top: 3%;
+}
+.contact-section h1 {
+  text-align: center;
+  color: white;
+  padding: 30px;
+  position: relative;
+}
+
+.after {
+  width: 300px;
+  height: 4px;
+  background-color: blue;
+  margin: 0 auto;
+  bottom: 14px;
+  margin-top: -27px;
+}
+
+.contact-form {
+  max-width: 60%;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.contact-section input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px 40px;
+  margin: 16px 0;
+}
+
+input,
+textarea:focus {
+  outline-color: blue;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  width: 50%;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  background-color: tomato;
+  text-align: center;
+}

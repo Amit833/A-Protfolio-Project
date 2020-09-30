@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+  .leftside {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .single-img {
+    flex-basis: 45%;
+  }
+}

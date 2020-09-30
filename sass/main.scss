@@ -1,0 +1,12 @@
+@import "base", "variables", "navigation", "home", "about", "projects",
+  "contact", "media";
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to left,
+    rgb(177, 177, 177) 82.5%,
+    rgb(221, 140, 110) 20%
+  );
+}
